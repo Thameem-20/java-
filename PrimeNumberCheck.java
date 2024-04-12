@@ -1,8 +1,8 @@
 public class PrimeNumberCheck {
 
 	public static void main(String[] args) {
-		System.out.println(isPrime(19)); // true
-		System.out.println(isPrime(49)); // false
+		System.out.println(isPrime(29)); // true
+		System.out.println(isPrime(59)); // false
 	}
 
 	public static boolean isPrime(int n) {
