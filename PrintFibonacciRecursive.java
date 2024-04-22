@@ -12,7 +12,9 @@ public class PrintFibonacciRecursive {
 
     	System.out.print("A Fibonacci sequence of " + seqLength + " numbers: ");
 
-    	
+    	for (int i = 0; i < seqLength; i++) {
+      	    System.out.print(fibonacci(i) + " ");
+    	}
   	}
 
 }
