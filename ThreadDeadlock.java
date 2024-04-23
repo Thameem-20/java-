@@ -47,7 +47,12 @@ class SyncThread implements Runnable {
         System.out.println(name + " finished execution.");
     }
 
-   
+    private void work() {
+        try {
+            Thread.sleep(30000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }
