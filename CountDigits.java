@@ -30,7 +30,7 @@ public static void main(String argvs[])
 Scanner scnr = new Scanner(System.in);  
 int N = scnr.nextInt();  
   
-System.out.println("The total digits in number " + N + " are: " + cntDig(N));  
+
 }  
     
 }  
